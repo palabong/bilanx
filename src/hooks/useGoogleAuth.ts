@@ -79,7 +79,10 @@ export function useGoogleAuth() {
       const data = await response.json();
 
       if (!response.ok || !data.success) {
-        throw new Error(data.error || 'Failed to verify Google credential on the server.');
+        const errorMsg = data.error 
+          ? (typeof data.error === 'object' ? JSON.stringify(data.error) : String(data.error))
+          : 'Failed to verify Google credential on the server.';
+        throw new Error(errorMsg);
       }
 
       const verifiedUser: VerifiedGoogleUser = data.user;
@@ -87,7 +90,7 @@ export function useGoogleAuth() {
       localStorage.setItem(STORAGE_KEY, JSON.stringify(verifiedUser));
       return verifiedUser;
     } catch (err: any) {
-      const msg = err.message || 'Authentication error during credential verification.';
+      const msg = err?.message || (typeof err === 'object' ? JSON.stringify(err) : String(err)) || 'Authentication error during credential verification.';
       setAuthError(msg);
       throw err;
     } finally {
