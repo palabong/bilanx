@@ -1,0 +1,23 @@
+{
+  "publicKeyJwk": {
+    "key_ops": [
+      "verify"
+    ],
+    "ext": true,
+    "kty": "EC",
+    "x": "ijQRk8BaRobfZ8JlWSwtSci3YBqELqYpJeZcsCErcLs",
+    "y": "JBkFAh3SGRcb-scijl54m2XfBeLC2MoZLyFm664tDP8",
+    "crv": "P-256"
+  },
+  "privateKeyJwk": {
+    "key_ops": [
+      "sign"
+    ],
+    "ext": true,
+    "kty": "EC",
+    "x": "ijQRk8BaRobfZ8JlWSwtSci3YBqELqYpJeZcsCErcLs",
+    "y": "JBkFAh3SGRcb-scijl54m2XfBeLC2MoZLyFm664tDP8",
+    "crv": "P-256",
+    "d": "_KA8rGIOopRHaOgMVeNm89ViRKE-vUga4YRR1P1pakE"
+  }
+}

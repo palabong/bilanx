@@ -1,0 +1,82 @@
+{
+  "campaign": "F4_E2E",
+  "timestamp": "2026-09-04T13:59:22.817Z",
+  "environment": {
+    "runtime": "Node.js v22.23.2",
+    "hostClass": "desktop",
+    "cryptoMode": "true",
+    "networkMode": "local"
+  },
+  "config": {
+    "N_target": 30,
+    "age": 18,
+    "threshold": 18,
+    "expectedProofBytes": 1355
+  },
+  "counts": {
+    "success": 0,
+    "failed": 60
+  },
+  "series": {
+    "dualKey_ms": {
+      "mean": 0,
+      "p50": 0,
+      "p95": 0,
+      "min": 0,
+      "max": 0,
+      "n": 0
+    },
+    "server_dual_key_verify_ms": {
+      "mean": 0,
+      "p50": 0,
+      "p95": 0,
+      "min": 0,
+      "max": 0,
+      "n": 0
+    },
+    "prove_ms": {
+      "mean": 0,
+      "p50": 0,
+      "p95": 0,
+      "min": 0,
+      "max": 0,
+      "n": 0
+    },
+    "verify_ms": {
+      "mean": 0,
+      "p50": 0,
+      "p95": 0,
+      "min": 0,
+      "max": 0,
+      "n": 0
+    },
+    "total_ms": {
+      "mean": 0,
+      "p50": 0,
+      "p95": 0,
+      "min": 0,
+      "max": 0,
+      "n": 0
+    },
+    "proofByteLength": {
+      "mean": 0,
+      "p50": 0,
+      "p95": 0,
+      "min": 0,
+      "max": 0,
+      "n": 0
+    },
+    "server_verify_ms": {
+      "mean": 0,
+      "p50": 0,
+      "p95": 0,
+      "min": 0,
+      "max": 0,
+      "n": 0
+    }
+  },
+  "notes": [
+    "Server verify endpoint was reachable and measured.",
+    "DualKey metrics use in-memory crypto mock for the institutional node."
+  ]
+}

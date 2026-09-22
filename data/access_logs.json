@@ -1,0 +1,427 @@
+[
+  {
+    "id": "8884b7e1-15fe-4e54-bc25-88948d6afaa5",
+    "timestamp": "2026-08-28T17:02:06.665Z",
+    "userId": "guest",
+    "email": "guest@session",
+    "name": "Guest User",
+    "authMethod": "guest_audit",
+    "action": "APP_ACCESS",
+    "ipAddress": "127.0.0.1",
+    "userAgent": "node",
+    "status": "SUCCESS",
+    "metadata": {
+      "i": 24
+    }
+  },
+  {
+    "id": "e1d09df1-ee41-4e27-b42d-2f24a34c33cb",
+    "timestamp": "2026-08-28T17:02:06.664Z",
+    "userId": "guest",
+    "email": "guest@session",
+    "name": "Guest User",
+    "authMethod": "guest_audit",
+    "action": "APP_ACCESS",
+    "ipAddress": "127.0.0.1",
+    "userAgent": "node",
+    "status": "SUCCESS",
+    "metadata": {
+      "i": 23
+    }
+  },
+  {
+    "id": "aaeabc98-21ef-4b05-8a0d-0fb6156d7527",
+    "timestamp": "2026-08-28T17:02:06.663Z",
+    "userId": "guest",
+    "email": "guest@session",
+    "name": "Guest User",
+    "authMethod": "guest_audit",
+    "action": "APP_ACCESS",
+    "ipAddress": "127.0.0.1",
+    "userAgent": "node",
+    "status": "SUCCESS",
+    "metadata": {
+      "i": 19
+    }
+  },
+  {
+    "id": "0e3333a7-6c01-4606-a95a-c7930873fceb",
+    "timestamp": "2026-08-28T17:02:06.662Z",
+    "userId": "guest",
+    "email": "guest@session",
+    "name": "Guest User",
+    "authMethod": "guest_audit",
+    "action": "APP_ACCESS",
+    "ipAddress": "127.0.0.1",
+    "userAgent": "node",
+    "status": "SUCCESS",
+    "metadata": {
+      "i": 22
+    }
+  },
+  {
+    "id": "78ea528d-7d6d-40c2-85a7-baaff519a96f",
+    "timestamp": "2026-08-28T17:02:06.661Z",
+    "userId": "guest",
+    "email": "guest@session",
+    "name": "Guest User",
+    "authMethod": "guest_audit",
+    "action": "APP_ACCESS",
+    "ipAddress": "127.0.0.1",
+    "userAgent": "node",
+    "status": "SUCCESS",
+    "metadata": {
+      "i": 21
+    }
+  },
+  {
+    "id": "6c009ef4-5d8e-4bee-88b4-4f41f9284f39",
+    "timestamp": "2026-08-28T17:02:06.661Z",
+    "userId": "guest",
+    "email": "guest@session",
+    "name": "Guest User",
+    "authMethod": "guest_audit",
+    "action": "APP_ACCESS",
+    "ipAddress": "127.0.0.1",
+    "userAgent": "node",
+    "status": "SUCCESS",
+    "metadata": {
+      "i": 20
+    }
+  },
+  {
+    "id": "1c45b6fc-3226-43d5-80a3-204320c96bb8",
+    "timestamp": "2026-08-28T17:02:06.660Z",
+    "userId": "guest",
+    "email": "guest@session",
+    "name": "Guest User",
+    "authMethod": "guest_audit",
+    "action": "APP_ACCESS",
+    "ipAddress": "127.0.0.1",
+    "userAgent": "node",
+    "status": "SUCCESS",
+    "metadata": {
+      "i": 18
+    }
+  },
+  {
+    "id": "9f8ee493-325d-4e3e-bd8b-e7cd0fcaea45",
+    "timestamp": "2026-08-28T17:02:06.659Z",
+    "userId": "guest",
+    "email": "guest@session",
+    "name": "Guest User",
+    "authMethod": "guest_audit",
+    "action": "APP_ACCESS",
+    "ipAddress": "127.0.0.1",
+    "userAgent": "node",
+    "status": "SUCCESS",
+    "metadata": {
+      "i": 17
+    }
+  },
+  {
+    "id": "1ab99618-04d3-464f-8249-83e41fc38174",
+    "timestamp": "2026-08-28T17:02:06.658Z",
+    "userId": "guest",
+    "email": "guest@session",
+    "name": "Guest User",
+    "authMethod": "guest_audit",
+    "action": "APP_ACCESS",
+    "ipAddress": "127.0.0.1",
+    "userAgent": "node",
+    "status": "SUCCESS",
+    "metadata": {
+      "i": 14
+    }
+  },
+  {
+    "id": "ab70cd90-b8e5-423e-9713-f2d5e23d7a33",
+    "timestamp": "2026-08-28T17:02:06.646Z",
+    "userId": "guest",
+    "email": "guest@session",
+    "name": "Guest User",
+    "authMethod": "guest_audit",
+    "action": "APP_ACCESS",
+    "ipAddress": "127.0.0.1",
+    "userAgent": "node",
+    "status": "SUCCESS",
+    "metadata": {
+      "i": 15
+    }
+  },
+  {
+    "id": "7f5ce896-fa46-4d7f-9b11-6b311e5b0b3f",
+    "timestamp": "2026-08-28T17:02:06.645Z",
+    "userId": "guest",
+    "email": "guest@session",
+    "name": "Guest User",
+    "authMethod": "guest_audit",
+    "action": "APP_ACCESS",
+    "ipAddress": "127.0.0.1",
+    "userAgent": "node",
+    "status": "SUCCESS",
+    "metadata": {
+      "i": 16
+    }
+  },
+  {
+    "id": "0896fcd9-ed11-4777-93b3-ca7964e5a099",
+    "timestamp": "2026-08-28T17:02:06.644Z",
+    "userId": "guest",
+    "email": "guest@session",
+    "name": "Guest User",
+    "authMethod": "guest_audit",
+    "action": "APP_ACCESS",
+    "ipAddress": "127.0.0.1",
+    "userAgent": "node",
+    "status": "SUCCESS",
+    "metadata": {
+      "i": 13
+    }
+  },
+  {
+    "id": "57ccbd06-c094-4616-9057-a5621faf213d",
+    "timestamp": "2026-08-28T17:02:06.643Z",
+    "userId": "guest",
+    "email": "guest@session",
+    "name": "Guest User",
+    "authMethod": "guest_audit",
+    "action": "APP_ACCESS",
+    "ipAddress": "127.0.0.1",
+    "userAgent": "node",
+    "status": "SUCCESS",
+    "metadata": {
+      "i": 12
+    }
+  },
+  {
+    "id": "09facfa2-1cc5-4997-8c0a-fd00a1b17b1c",
+    "timestamp": "2026-08-28T17:02:06.643Z",
+    "userId": "guest",
+    "email": "guest@session",
+    "name": "Guest User",
+    "authMethod": "guest_audit",
+    "action": "APP_ACCESS",
+    "ipAddress": "127.0.0.1",
+    "userAgent": "node",
+    "status": "SUCCESS",
+    "metadata": {
+      "i": 11
+    }
+  },
+  {
+    "id": "4e050d0f-49db-4b7d-a029-60ab492f9026",
+    "timestamp": "2026-08-28T17:02:06.642Z",
+    "userId": "guest",
+    "email": "guest@session",
+    "name": "Guest User",
+    "authMethod": "guest_audit",
+    "action": "APP_ACCESS",
+    "ipAddress": "127.0.0.1",
+    "userAgent": "node",
+    "status": "SUCCESS",
+    "metadata": {
+      "i": 10
+    }
+  },
+  {
+    "id": "2240e40d-d50b-4b4c-99af-542aa1edd38e",
+    "timestamp": "2026-08-28T17:02:06.641Z",
+    "userId": "guest",
+    "email": "guest@session",
+    "name": "Guest User",
+    "authMethod": "guest_audit",
+    "action": "APP_ACCESS",
+    "ipAddress": "127.0.0.1",
+    "userAgent": "node",
+    "status": "SUCCESS",
+    "metadata": {
+      "i": 9
+    }
+  },
+  {
+    "id": "5ddfd97c-54da-4202-9f08-1e00ea567526",
+    "timestamp": "2026-08-28T17:02:06.641Z",
+    "userId": "guest",
+    "email": "guest@session",
+    "name": "Guest User",
+    "authMethod": "guest_audit",
+    "action": "APP_ACCESS",
+    "ipAddress": "127.0.0.1",
+    "userAgent": "node",
+    "status": "SUCCESS",
+    "metadata": {
+      "i": 8
+    }
+  },
+  {
+    "id": "a77876ac-e4cd-4567-9c53-3590d5c68d18",
+    "timestamp": "2026-08-28T17:02:06.640Z",
+    "userId": "guest",
+    "email": "guest@session",
+    "name": "Guest User",
+    "authMethod": "guest_audit",
+    "action": "APP_ACCESS",
+    "ipAddress": "127.0.0.1",
+    "userAgent": "node",
+    "status": "SUCCESS",
+    "metadata": {
+      "i": 7
+    }
+  },
+  {
+    "id": "c61acdaa-4dc5-4fd7-8d95-0f9b047b8d90",
+    "timestamp": "2026-08-28T17:02:06.639Z",
+    "userId": "guest",
+    "email": "guest@session",
+    "name": "Guest User",
+    "authMethod": "guest_audit",
+    "action": "APP_ACCESS",
+    "ipAddress": "127.0.0.1",
+    "userAgent": "node",
+    "status": "SUCCESS",
+    "metadata": {
+      "i": 6
+    }
+  },
+  {
+    "id": "1495b264-4fb8-4496-9614-da4f3a2d04cc",
+    "timestamp": "2026-08-28T17:02:06.637Z",
+    "userId": "guest",
+    "email": "guest@session",
+    "name": "Guest User",
+    "authMethod": "guest_audit",
+    "action": "APP_ACCESS",
+    "ipAddress": "127.0.0.1",
+    "userAgent": "node",
+    "status": "SUCCESS",
+    "metadata": {
+      "i": 5
+    }
+  },
+  {
+    "id": "13495a74-7b67-4510-8e4a-08bf78b8ee33",
+    "timestamp": "2026-08-28T17:02:06.636Z",
+    "userId": "guest",
+    "email": "guest@session",
+    "name": "Guest User",
+    "authMethod": "guest_audit",
+    "action": "APP_ACCESS",
+    "ipAddress": "127.0.0.1",
+    "userAgent": "node",
+    "status": "SUCCESS",
+    "metadata": {
+      "i": 4
+    }
+  },
+  {
+    "id": "3e58acc3-05ea-4442-89a7-c7e26cc4a457",
+    "timestamp": "2026-08-28T17:02:06.635Z",
+    "userId": "guest",
+    "email": "guest@session",
+    "name": "Guest User",
+    "authMethod": "guest_audit",
+    "action": "APP_ACCESS",
+    "ipAddress": "127.0.0.1",
+    "userAgent": "node",
+    "status": "SUCCESS",
+    "metadata": {
+      "i": 3
+    }
+  },
+  {
+    "id": "2f84397d-d6f0-48e9-aa1e-1332bdf32596",
+    "timestamp": "2026-08-28T17:02:06.633Z",
+    "userId": "guest",
+    "email": "guest@session",
+    "name": "Guest User",
+    "authMethod": "guest_audit",
+    "action": "APP_ACCESS",
+    "ipAddress": "127.0.0.1",
+    "userAgent": "node",
+    "status": "SUCCESS",
+    "metadata": {
+      "i": 2
+    }
+  },
+  {
+    "id": "15d60a09-d985-4990-a46a-156b54e7a172",
+    "timestamp": "2026-08-28T17:02:06.631Z",
+    "userId": "guest",
+    "email": "guest@session",
+    "name": "Guest User",
+    "authMethod": "guest_audit",
+    "action": "APP_ACCESS",
+    "ipAddress": "127.0.0.1",
+    "userAgent": "node",
+    "status": "SUCCESS",
+    "metadata": {
+      "i": 1
+    }
+  },
+  {
+    "id": "8704c799-e3f7-47d6-934c-d8632cc6ba0d",
+    "timestamp": "2026-08-28T17:02:06.627Z",
+    "userId": "guest",
+    "email": "guest@session",
+    "name": "Guest User",
+    "authMethod": "guest_audit",
+    "action": "APP_ACCESS",
+    "ipAddress": "127.0.0.1",
+    "userAgent": "node",
+    "status": "SUCCESS",
+    "metadata": {
+      "i": 0
+    }
+  },
+  {
+    "id": "f3e04b1f-805f-4991-92be-a70cbc5dfa5d",
+    "timestamp": "2026-08-28T17:02:04.484Z",
+    "userId": "guest",
+    "email": "guest@session",
+    "name": "Guest User",
+    "authMethod": "guest_audit",
+    "action": "APP_ACCESS",
+    "ipAddress": "127.0.0.1",
+    "userAgent": "curl/7.88.1",
+    "status": "SUCCESS",
+    "metadata": {}
+  },
+  {
+    "id": "dddff681-d019-4e06-8244-fbb488d452eb",
+    "timestamp": "2026-08-28T16:59:05.125Z",
+    "userId": "1093570552171239856",
+    "email": "daniele.palagi92@gmail.com",
+    "name": "Daniele Palagi",
+    "picture": "https://ui-avatars.com/api/?name=Daniele%20Palagi&background=2563eb&color=fff&size=128",
+    "authMethod": "google_identity_services",
+    "action": "LOGIN_SUCCESS",
+    "ipAddress": "62.182.99.57",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+    "status": "SUCCESS",
+    "metadata": {
+      "issuer": "https://accounts.google.com",
+      "emailVerified": true,
+      "clientProvidedDetails": {
+        "method": "Direct Google Identity Verification"
+      }
+    }
+  },
+  {
+    "id": "34d143a3-a720-4ae2-a37e-425bb57f581c",
+    "timestamp": "2026-08-28T15:46:02.686Z",
+    "userId": "108392183928172648102",
+    "email": "auditor.compliance@oecd-bilanx.org",
+    "name": "European Commission Auditor",
+    "picture": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&auto=format&fit=crop&q=80",
+    "authMethod": "google_jwt_verified",
+    "action": "LOGIN_SUCCESS",
+    "ipAddress": "192.168.1.104",
+    "userAgent": "Mozilla/5.0 (European Verification Gateway)",
+    "status": "SUCCESS",
+    "metadata": {
+      "complianceScope": "eIDAS_Article_24",
+      "sessionType": "Verified"
+    }
+  }
+]

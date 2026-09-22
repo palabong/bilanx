@@ -1,11 +1,15 @@
-<div align="center">
+# Bilanx DK-SVS Lab Sandbox
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+**TRL 4 Cryptographic Lab (Dual-Key + B2 Age-Gate)**
 
-  <h1>Built with AI Studio</h2>
+The default UI operates the **real `runDualKeyAgeGate` path**. 
+For detailed architecture, status, and performance characteristics, please see [src/sandbox/README.md](src/sandbox/README.md).
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## Running Locally
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+To run this project locally:
 
-</div>
+```bash
+npm install
+npm run dev
+```

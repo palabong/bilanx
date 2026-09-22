@@ -1,0 +1,2402 @@
+[
+  {
+    "kpiId": "KPI-03",
+    "value": 36.17663199999993,
+    "unit": "ms",
+    "timestamp": 1784391980278,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 394,
+    "unit": "bytes",
+    "timestamp": 1784391980279,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 21.811451999999917,
+    "unit": "ms",
+    "timestamp": 1784391980301,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 397,
+    "unit": "bytes",
+    "timestamp": 1784391980302,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 30.28050099999996,
+    "unit": "ms",
+    "timestamp": 1784391980332,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 398,
+    "unit": "bytes",
+    "timestamp": 1784391980332,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 17.539301999999907,
+    "unit": "ms",
+    "timestamp": 1784391980350,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 404,
+    "unit": "bytes",
+    "timestamp": 1784391980350,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 26.095194999999876,
+    "unit": "ms",
+    "timestamp": 1784391980377,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 396,
+    "unit": "bytes",
+    "timestamp": 1784391980377,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 20.99092299999984,
+    "unit": "ms",
+    "timestamp": 1784391980398,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 389,
+    "unit": "bytes",
+    "timestamp": 1784391980398,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 17.967738999999938,
+    "unit": "ms",
+    "timestamp": 1784391980416,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 403,
+    "unit": "bytes",
+    "timestamp": 1784391980417,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 22.8998509999999,
+    "unit": "ms",
+    "timestamp": 1784391980440,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 389,
+    "unit": "bytes",
+    "timestamp": 1784391980440,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 20.007104000000027,
+    "unit": "ms",
+    "timestamp": 1784391980460,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 393,
+    "unit": "bytes",
+    "timestamp": 1784391980460,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 23.32696800000008,
+    "unit": "ms",
+    "timestamp": 1784391980484,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 399,
+    "unit": "bytes",
+    "timestamp": 1784391980485,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 28.25052800000003,
+    "unit": "ms",
+    "timestamp": 1784391980513,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 392,
+    "unit": "bytes",
+    "timestamp": 1784391980514,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 19.92805300000009,
+    "unit": "ms",
+    "timestamp": 1784391980534,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 394,
+    "unit": "bytes",
+    "timestamp": 1784391980535,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 20.525018000000046,
+    "unit": "ms",
+    "timestamp": 1784391980555,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 396,
+    "unit": "bytes",
+    "timestamp": 1784391980555,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 16.81799799999999,
+    "unit": "ms",
+    "timestamp": 1784391980572,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 393,
+    "unit": "bytes",
+    "timestamp": 1784391980573,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 19.36705699999993,
+    "unit": "ms",
+    "timestamp": 1784391980592,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 388,
+    "unit": "bytes",
+    "timestamp": 1784391980592,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 17.651956000000155,
+    "unit": "ms",
+    "timestamp": 1784391980610,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 397,
+    "unit": "bytes",
+    "timestamp": 1784391980610,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 17.049009999999953,
+    "unit": "ms",
+    "timestamp": 1784391980628,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 398,
+    "unit": "bytes",
+    "timestamp": 1784391980628,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 25.121672999999873,
+    "unit": "ms",
+    "timestamp": 1784391980653,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 397,
+    "unit": "bytes",
+    "timestamp": 1784391980653,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 23.781469000000016,
+    "unit": "ms",
+    "timestamp": 1784391980677,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 403,
+    "unit": "bytes",
+    "timestamp": 1784391980678,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 20.73336900000004,
+    "unit": "ms",
+    "timestamp": 1784391980698,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 395,
+    "unit": "bytes",
+    "timestamp": 1784391980699,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 23.948276999999962,
+    "unit": "ms",
+    "timestamp": 1784391980723,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 398,
+    "unit": "bytes",
+    "timestamp": 1784391980723,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 19.066820000000007,
+    "unit": "ms",
+    "timestamp": 1784391980742,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 396,
+    "unit": "bytes",
+    "timestamp": 1784391980742,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 25.88441899999998,
+    "unit": "ms",
+    "timestamp": 1784391980768,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 395,
+    "unit": "bytes",
+    "timestamp": 1784391980769,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 21.64228900000012,
+    "unit": "ms",
+    "timestamp": 1784391980790,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 391,
+    "unit": "bytes",
+    "timestamp": 1784391980791,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 20.239978000000065,
+    "unit": "ms",
+    "timestamp": 1784391980811,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 394,
+    "unit": "bytes",
+    "timestamp": 1784391980811,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 20.874915999999985,
+    "unit": "ms",
+    "timestamp": 1784391980832,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 396,
+    "unit": "bytes",
+    "timestamp": 1784391980833,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 18.267701999999872,
+    "unit": "ms",
+    "timestamp": 1784391980851,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 393,
+    "unit": "bytes",
+    "timestamp": 1784391980852,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 21.440305999999964,
+    "unit": "ms",
+    "timestamp": 1784391980874,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 394,
+    "unit": "bytes",
+    "timestamp": 1784391980874,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 22.127704999999878,
+    "unit": "ms",
+    "timestamp": 1784391980896,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 385,
+    "unit": "bytes",
+    "timestamp": 1784391980896,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 21.52137300000004,
+    "unit": "ms",
+    "timestamp": 1784391980918,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 394,
+    "unit": "bytes",
+    "timestamp": 1784391980918,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 18.160248000000138,
+    "unit": "ms",
+    "timestamp": 1784391980937,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 397,
+    "unit": "bytes",
+    "timestamp": 1784391980937,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 18.988706999999977,
+    "unit": "ms",
+    "timestamp": 1784391980956,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 399,
+    "unit": "bytes",
+    "timestamp": 1784391980956,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 20.77394800000002,
+    "unit": "ms",
+    "timestamp": 1784391980977,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 387,
+    "unit": "bytes",
+    "timestamp": 1784391980978,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 21.224564999999984,
+    "unit": "ms",
+    "timestamp": 1784391981000,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 396,
+    "unit": "bytes",
+    "timestamp": 1784391981001,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 26.7585610000001,
+    "unit": "ms",
+    "timestamp": 1784391981029,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 400,
+    "unit": "bytes",
+    "timestamp": 1784391981029,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 27.19386200000008,
+    "unit": "ms",
+    "timestamp": 1784391981056,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 393,
+    "unit": "bytes",
+    "timestamp": 1784391981057,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 20.910366000000067,
+    "unit": "ms",
+    "timestamp": 1784391981078,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 398,
+    "unit": "bytes",
+    "timestamp": 1784391981078,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 20.19819099999995,
+    "unit": "ms",
+    "timestamp": 1784391981098,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 394,
+    "unit": "bytes",
+    "timestamp": 1784391981098,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 23.688524000000143,
+    "unit": "ms",
+    "timestamp": 1784391981122,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 393,
+    "unit": "bytes",
+    "timestamp": 1784391981122,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 31.857604000000038,
+    "unit": "ms",
+    "timestamp": 1784391981154,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 397,
+    "unit": "bytes",
+    "timestamp": 1784391981155,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 21.944915000000037,
+    "unit": "ms",
+    "timestamp": 1784391981177,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 397,
+    "unit": "bytes",
+    "timestamp": 1784391981177,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 18.742142999999942,
+    "unit": "ms",
+    "timestamp": 1784391981196,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 398,
+    "unit": "bytes",
+    "timestamp": 1784391981196,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 19.604284000000007,
+    "unit": "ms",
+    "timestamp": 1784391981216,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 396,
+    "unit": "bytes",
+    "timestamp": 1784391981216,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 22.539939000000004,
+    "unit": "ms",
+    "timestamp": 1784391981239,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 390,
+    "unit": "bytes",
+    "timestamp": 1784391981239,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 21.487785999999915,
+    "unit": "ms",
+    "timestamp": 1784391981261,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 390,
+    "unit": "bytes",
+    "timestamp": 1784391981261,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 18.559585999999854,
+    "unit": "ms",
+    "timestamp": 1784391981280,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 403,
+    "unit": "bytes",
+    "timestamp": 1784391981280,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 17.72472400000015,
+    "unit": "ms",
+    "timestamp": 1784391981298,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 392,
+    "unit": "bytes",
+    "timestamp": 1784391981298,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 18.575038999999833,
+    "unit": "ms",
+    "timestamp": 1784391981317,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 409,
+    "unit": "bytes",
+    "timestamp": 1784391981317,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 21.072306000000026,
+    "unit": "ms",
+    "timestamp": 1784391981338,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 391,
+    "unit": "bytes",
+    "timestamp": 1784391981338,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 19.633535999999822,
+    "unit": "ms",
+    "timestamp": 1784391981358,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 393,
+    "unit": "bytes",
+    "timestamp": 1784391981358,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 18.249739999999747,
+    "unit": "ms",
+    "timestamp": 1784391981377,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 400,
+    "unit": "bytes",
+    "timestamp": 1784391981377,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 16.919548999999733,
+    "unit": "ms",
+    "timestamp": 1784391981394,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 394,
+    "unit": "bytes",
+    "timestamp": 1784391981394,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 19.234640000000127,
+    "unit": "ms",
+    "timestamp": 1784391981414,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 398,
+    "unit": "bytes",
+    "timestamp": 1784391981414,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 23.62746900000002,
+    "unit": "ms",
+    "timestamp": 1784391981438,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 397,
+    "unit": "bytes",
+    "timestamp": 1784391981438,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 22.392319000000043,
+    "unit": "ms",
+    "timestamp": 1784391981460,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 397,
+    "unit": "bytes",
+    "timestamp": 1784391981461,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 20.8849909999999,
+    "unit": "ms",
+    "timestamp": 1784391981482,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 396,
+    "unit": "bytes",
+    "timestamp": 1784391981482,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 23.769232000000102,
+    "unit": "ms",
+    "timestamp": 1784391981506,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 396,
+    "unit": "bytes",
+    "timestamp": 1784391981506,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 21.29982199999995,
+    "unit": "ms",
+    "timestamp": 1784391981527,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 391,
+    "unit": "bytes",
+    "timestamp": 1784391981527,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 20.360869999999977,
+    "unit": "ms",
+    "timestamp": 1784391981548,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 403,
+    "unit": "bytes",
+    "timestamp": 1784391981548,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 22.52352400000018,
+    "unit": "ms",
+    "timestamp": 1784391981571,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 397,
+    "unit": "bytes",
+    "timestamp": 1784391981571,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 19.998012000000017,
+    "unit": "ms",
+    "timestamp": 1784391981592,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 394,
+    "unit": "bytes",
+    "timestamp": 1784391981592,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 19.937263000000257,
+    "unit": "ms",
+    "timestamp": 1784391981612,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 395,
+    "unit": "bytes",
+    "timestamp": 1784391981612,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 17.033302000000276,
+    "unit": "ms",
+    "timestamp": 1784391981629,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 388,
+    "unit": "bytes",
+    "timestamp": 1784391981630,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 20.560181999999713,
+    "unit": "ms",
+    "timestamp": 1784391981651,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 398,
+    "unit": "bytes",
+    "timestamp": 1784391981651,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 19.22766700000011,
+    "unit": "ms",
+    "timestamp": 1784391981670,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 402,
+    "unit": "bytes",
+    "timestamp": 1784391981670,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 16.674614999999903,
+    "unit": "ms",
+    "timestamp": 1784391981687,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 394,
+    "unit": "bytes",
+    "timestamp": 1784391981687,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 19.42242099999976,
+    "unit": "ms",
+    "timestamp": 1784391981707,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 392,
+    "unit": "bytes",
+    "timestamp": 1784391981707,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 26.303272000000106,
+    "unit": "ms",
+    "timestamp": 1784391981734,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 396,
+    "unit": "bytes",
+    "timestamp": 1784391981734,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 21.56588799999963,
+    "unit": "ms",
+    "timestamp": 1784391981755,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 396,
+    "unit": "bytes",
+    "timestamp": 1784391981756,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 22.633238000000347,
+    "unit": "ms",
+    "timestamp": 1784391981779,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 393,
+    "unit": "bytes",
+    "timestamp": 1784391981779,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 19.979743000000326,
+    "unit": "ms",
+    "timestamp": 1784391981799,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 394,
+    "unit": "bytes",
+    "timestamp": 1784391981799,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 21.777669999999944,
+    "unit": "ms",
+    "timestamp": 1784391981821,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 399,
+    "unit": "bytes",
+    "timestamp": 1784391981821,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 19.530432999999903,
+    "unit": "ms",
+    "timestamp": 1784391981841,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 404,
+    "unit": "bytes",
+    "timestamp": 1784391981841,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 19.199341000000004,
+    "unit": "ms",
+    "timestamp": 1784391981860,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 389,
+    "unit": "bytes",
+    "timestamp": 1784391981861,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 20.965351000000283,
+    "unit": "ms",
+    "timestamp": 1784391981882,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 398,
+    "unit": "bytes",
+    "timestamp": 1784391981882,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 19.69445799999994,
+    "unit": "ms",
+    "timestamp": 1784391981902,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 395,
+    "unit": "bytes",
+    "timestamp": 1784391981902,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 20.027517999999873,
+    "unit": "ms",
+    "timestamp": 1784391981922,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 395,
+    "unit": "bytes",
+    "timestamp": 1784391981922,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 18.037455000000136,
+    "unit": "ms",
+    "timestamp": 1784391981941,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 403,
+    "unit": "bytes",
+    "timestamp": 1784391981941,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 18.29737699999987,
+    "unit": "ms",
+    "timestamp": 1784391981959,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 389,
+    "unit": "bytes",
+    "timestamp": 1784391981959,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 17.875750000000153,
+    "unit": "ms",
+    "timestamp": 1784391981977,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 390,
+    "unit": "bytes",
+    "timestamp": 1784391981978,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 18.77919400000019,
+    "unit": "ms",
+    "timestamp": 1784391981996,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 396,
+    "unit": "bytes",
+    "timestamp": 1784391981997,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 19.567475000000286,
+    "unit": "ms",
+    "timestamp": 1784391982016,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 396,
+    "unit": "bytes",
+    "timestamp": 1784391982017,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 18.10386500000004,
+    "unit": "ms",
+    "timestamp": 1784391982035,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 400,
+    "unit": "bytes",
+    "timestamp": 1784391982035,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 18.736460999999963,
+    "unit": "ms",
+    "timestamp": 1784391982054,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 398,
+    "unit": "bytes",
+    "timestamp": 1784391982054,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 25.090062000000216,
+    "unit": "ms",
+    "timestamp": 1784391982079,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 393,
+    "unit": "bytes",
+    "timestamp": 1784391982080,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 25.078171999999995,
+    "unit": "ms",
+    "timestamp": 1784391982105,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 402,
+    "unit": "bytes",
+    "timestamp": 1784391982105,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 22.782416999999896,
+    "unit": "ms",
+    "timestamp": 1784391982128,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 398,
+    "unit": "bytes",
+    "timestamp": 1784391982128,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 22.66385100000025,
+    "unit": "ms",
+    "timestamp": 1784391982151,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 396,
+    "unit": "bytes",
+    "timestamp": 1784391982151,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 21.465845000000172,
+    "unit": "ms",
+    "timestamp": 1784391982173,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 401,
+    "unit": "bytes",
+    "timestamp": 1784391982173,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 21.500204999999823,
+    "unit": "ms",
+    "timestamp": 1784391982195,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 398,
+    "unit": "bytes",
+    "timestamp": 1784391982195,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 21.413200999999844,
+    "unit": "ms",
+    "timestamp": 1784391982217,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 399,
+    "unit": "bytes",
+    "timestamp": 1784391982217,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 21.197975000000042,
+    "unit": "ms",
+    "timestamp": 1784391982238,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 404,
+    "unit": "bytes",
+    "timestamp": 1784391982238,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 21.170325999999932,
+    "unit": "ms",
+    "timestamp": 1784391982260,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 398,
+    "unit": "bytes",
+    "timestamp": 1784391982260,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 16.072185999999874,
+    "unit": "ms",
+    "timestamp": 1784391982276,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 396,
+    "unit": "bytes",
+    "timestamp": 1784391982276,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 18.776045000000067,
+    "unit": "ms",
+    "timestamp": 1784391982295,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 403,
+    "unit": "bytes",
+    "timestamp": 1784391982295,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 18.725822999999764,
+    "unit": "ms",
+    "timestamp": 1784391982314,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 397,
+    "unit": "bytes",
+    "timestamp": 1784391982314,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 19.94075100000009,
+    "unit": "ms",
+    "timestamp": 1784391982334,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 391,
+    "unit": "bytes",
+    "timestamp": 1784391982335,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 18.399439000000257,
+    "unit": "ms",
+    "timestamp": 1784391982353,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 389,
+    "unit": "bytes",
+    "timestamp": 1784391982353,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 17.01834800000006,
+    "unit": "ms",
+    "timestamp": 1784391982370,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 395,
+    "unit": "bytes",
+    "timestamp": 1784391982371,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-03",
+    "value": 18.1740420000001,
+    "unit": "ms",
+    "timestamp": 1784391982389,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  },
+  {
+    "kpiId": "KPI-05",
+    "value": 398,
+    "unit": "bytes",
+    "timestamp": 1784391982389,
+    "sessionId": "8a1d8849-0cd4-4387-a039-76d7cdd1f67d",
+    "executionContext": {
+      "cryptoMode": "true",
+      "hostClass": "desktop",
+      "networkMode": "none"
+    }
+  }
+]
