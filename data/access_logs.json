@@ -1,5 +1,25 @@
 [
   {
+    "id": "39e66fb8-b640-4a69-82de-69fa3e771bc1",
+    "timestamp": "2026-09-22T14:47:49.889Z",
+    "userId": "1097720926920102808",
+    "email": "daniele.palagi92@gmail.com",
+    "name": "Daniele Palagi",
+    "picture": "https://ui-avatars.com/api/?name=Daniele%20Palagi&background=2563eb&color=fff&size=128",
+    "authMethod": "google_identity_services",
+    "action": "LOGIN_SUCCESS",
+    "ipAddress": "93.57.251.138",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+    "status": "SUCCESS",
+    "metadata": {
+      "issuer": "https://accounts.google.com",
+      "emailVerified": true,
+      "clientProvidedDetails": {
+        "method": "Direct Google Identity Verification"
+      }
+    }
+  },
+  {
     "id": "8884b7e1-15fe-4e54-bc25-88948d6afaa5",
     "timestamp": "2026-08-28T17:02:06.665Z",
     "userId": "guest",
