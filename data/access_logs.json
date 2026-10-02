@@ -1,5 +1,224 @@
 [
   {
+    "id": "a1dde5c8-51db-4b6e-92b7-386023ecffea",
+    "timestamp": "2026-10-02T16:21:26.260Z",
+    "userId": "109876543210",
+    "email": "daniele.palagi92@gmail.com",
+    "name": "Daniele Palagi",
+    "picture": "https://ui-avatars.com/api/?name=Daniele%20Palagi&background=0D8ABC&color=fff",
+    "authMethod": "google_identity_services",
+    "action": "LOGIN_SUCCESS",
+    "ipAddress": "127.0.0.1",
+    "userAgent": "node",
+    "status": "SUCCESS",
+    "metadata": {
+      "issuer": "https://accounts.google.com",
+      "emailVerified": true,
+      "clientProvidedDetails": {
+        "method": "Direct Google Identity Verification"
+      }
+    }
+  },
+  {
+    "id": "bfd28303-986e-4025-af01-7128dfe7a448",
+    "timestamp": "2026-10-02T16:09:26.586Z",
+    "userId": "109876543210",
+    "email": "daniele.palagi92@gmail.com",
+    "name": "Daniele Palagi",
+    "picture": "https://ui-avatars.com/api/?name=Daniele%20Palagi&background=0D8ABC&color=fff",
+    "authMethod": "google_identity_services",
+    "action": "LOGIN_SUCCESS",
+    "ipAddress": "127.0.0.1",
+    "userAgent": "node",
+    "status": "SUCCESS",
+    "metadata": {
+      "issuer": "https://accounts.google.com",
+      "emailVerified": true,
+      "clientProvidedDetails": {
+        "method": "Direct Google Identity Verification"
+      }
+    }
+  },
+  {
+    "id": "39f53abe-e13f-41ac-99a3-6e81186e3bb2",
+    "timestamp": "2026-10-02T16:08:50.476Z",
+    "userId": "unverified",
+    "email": "unverified@token",
+    "name": "Unverified Token",
+    "authMethod": "google_jwt_verified",
+    "action": "LOGIN_FAILURE",
+    "ipAddress": "127.0.0.1",
+    "userAgent": "node",
+    "status": "DENIED",
+    "metadata": {
+      "reason": "Malformed or unverified token payload"
+    }
+  },
+  {
+    "id": "c78a6ab3-8891-4ad3-809a-c75115bb8807",
+    "timestamp": "2026-10-02T16:08:48.240Z",
+    "userId": "109876543210",
+    "email": "test.auditor@gmail.com",
+    "name": "Test Auditor",
+    "picture": "https://ui-avatars.com/api/?name=Test%20Auditor&background=0D8ABC&color=fff",
+    "authMethod": "google_identity_services",
+    "action": "LOGIN_SUCCESS",
+    "ipAddress": "127.0.0.1",
+    "userAgent": "node",
+    "status": "SUCCESS",
+    "metadata": {
+      "issuer": "https://accounts.google.com",
+      "emailVerified": true,
+      "clientProvidedDetails": {
+        "method": "Direct Google Identity Verification"
+      }
+    }
+  },
+  {
+    "id": "919a1626-6cc8-42c6-8c7c-462d6c2f0dfb",
+    "timestamp": "2026-10-02T16:06:49.370Z",
+    "userId": "1093501623204154649",
+    "email": "daniele.palagi92@gmail.com",
+    "name": "Daniele Palagi",
+    "picture": "https://ui-avatars.com/api/?name=Daniele%20Palagi&background=2563eb&color=fff&size=128",
+    "authMethod": "credential_verification",
+    "action": "LOGOUT",
+    "ipAddress": "93.57.252.6",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "status": "SUCCESS",
+    "metadata": {
+      "sessionDurationSeconds": 2
+    }
+  },
+  {
+    "id": "9f976a2c-b7a7-42c3-8b14-863a915f4949",
+    "timestamp": "2026-10-02T16:06:47.008Z",
+    "userId": "1093501623204154649",
+    "email": "daniele.palagi92@gmail.com",
+    "name": "Daniele Palagi",
+    "picture": "https://ui-avatars.com/api/?name=Daniele%20Palagi&background=2563eb&color=fff&size=128",
+    "authMethod": "google_identity_services",
+    "action": "LOGIN_SUCCESS",
+    "ipAddress": "93.57.252.6",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "status": "SUCCESS",
+    "metadata": {
+      "issuer": "https://accounts.google.com",
+      "emailVerified": true,
+      "clientProvidedDetails": {
+        "method": "Direct Google Identity Verification"
+      }
+    }
+  },
+  {
+    "id": "5af81940-96e9-4e83-a86e-d4f541a6dd4f",
+    "timestamp": "2026-10-02T16:06:44.876Z",
+    "userId": "1097255114030620122",
+    "email": "daniele.palagi92@gmail.com",
+    "name": "Daniele Palagi",
+    "picture": "https://ui-avatars.com/api/?name=Daniele%20Palagi&background=2563eb&color=fff&size=128",
+    "authMethod": "credential_verification",
+    "action": "LOGOUT",
+    "ipAddress": "93.57.252.6",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "status": "SUCCESS",
+    "metadata": {
+      "sessionDurationSeconds": 2283
+    }
+  },
+  {
+    "id": "0054c5d7-a748-4aa6-81a1-3e80bbecd1e9",
+    "timestamp": "2026-10-02T15:28:41.215Z",
+    "userId": "1097255114030620122",
+    "email": "daniele.palagi92@gmail.com",
+    "name": "Daniele Palagi",
+    "picture": "https://ui-avatars.com/api/?name=Daniele%20Palagi&background=2563eb&color=fff&size=128",
+    "authMethod": "google_identity_services",
+    "action": "LOGIN_SUCCESS",
+    "ipAddress": "93.57.252.6",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "status": "SUCCESS",
+    "metadata": {
+      "issuer": "https://accounts.google.com",
+      "emailVerified": true,
+      "clientProvidedDetails": {
+        "method": "Direct Google Identity Verification"
+      }
+    }
+  },
+  {
+    "id": "4559fa4a-f346-43ab-bf3a-a6b2b858ef36",
+    "timestamp": "2026-10-02T15:28:25.287Z",
+    "userId": "1093031698035357139",
+    "email": "daniele.palagi92@gmail.com",
+    "name": "Daniele Palagi",
+    "picture": "https://ui-avatars.com/api/?name=Daniele%20Palagi&background=2563eb&color=fff&size=128",
+    "authMethod": "credential_verification",
+    "action": "LOGOUT",
+    "ipAddress": "93.57.252.6",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "status": "SUCCESS",
+    "metadata": {
+      "sessionDurationSeconds": 1
+    }
+  },
+  {
+    "id": "b45d2d62-2e4d-4323-8397-94a5ab8414a5",
+    "timestamp": "2026-10-02T15:28:23.376Z",
+    "userId": "1093031698035357139",
+    "email": "daniele.palagi92@gmail.com",
+    "name": "Daniele Palagi",
+    "picture": "https://ui-avatars.com/api/?name=Daniele%20Palagi&background=2563eb&color=fff&size=128",
+    "authMethod": "google_identity_services",
+    "action": "LOGIN_SUCCESS",
+    "ipAddress": "93.57.252.6",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "status": "SUCCESS",
+    "metadata": {
+      "issuer": "https://accounts.google.com",
+      "emailVerified": true,
+      "clientProvidedDetails": {
+        "method": "Direct Google Identity Verification"
+      }
+    }
+  },
+  {
+    "id": "72b03f51-a795-4e8f-9cf5-41e25c3b2565",
+    "timestamp": "2026-10-02T15:28:22.237Z",
+    "userId": "1097702036627586679",
+    "email": "daniele.palagi92@gmail.com",
+    "name": "Daniele Palagi",
+    "picture": "https://ui-avatars.com/api/?name=Daniele%20Palagi&background=2563eb&color=fff&size=128",
+    "authMethod": "credential_verification",
+    "action": "LOGOUT",
+    "ipAddress": "93.57.252.6",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "status": "SUCCESS",
+    "metadata": {
+      "sessionDurationSeconds": 677
+    }
+  },
+  {
+    "id": "a5f976a3-f4d7-48c8-ae20-72c4994548ad",
+    "timestamp": "2026-10-02T15:17:04.906Z",
+    "userId": "1097702036627586679",
+    "email": "daniele.palagi92@gmail.com",
+    "name": "Daniele Palagi",
+    "picture": "https://ui-avatars.com/api/?name=Daniele%20Palagi&background=2563eb&color=fff&size=128",
+    "authMethod": "google_identity_services",
+    "action": "LOGIN_SUCCESS",
+    "ipAddress": "93.57.252.6",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "status": "SUCCESS",
+    "metadata": {
+      "issuer": "https://accounts.google.com",
+      "emailVerified": true,
+      "clientProvidedDetails": {
+        "method": "Direct Google Identity Verification"
+      }
+    }
+  },
+  {
     "id": "39e66fb8-b640-4a69-82de-69fa3e771bc1",
     "timestamp": "2026-09-22T14:47:49.889Z",
     "userId": "1097720926920102808",

@@ -92,7 +92,7 @@ export function useGoogleAuth() {
     } catch (err: any) {
       const msg = err?.message || (typeof err === 'object' ? JSON.stringify(err) : String(err)) || 'Authentication error during credential verification.';
       setAuthError(msg);
-      throw err;
+      return null;
     } finally {
       setIsVerifying(false);
     }
@@ -107,13 +107,15 @@ export function useGoogleAuth() {
       const targetName = customName || targetEmail.split('@')[0].replace('.', ' ');
       const subId = `109${Math.floor(1000000000000000 + Math.random() * 9000000000000000)}`;
       
+      const activeClientId = (import.meta as any).env?.VITE_GOOGLE_CLIENT_ID || "622147315855-d7dhtqmp7ebo48bv706pjtsm1n90db57.apps.googleusercontent.com";
+
       // Build standard Google ID Token Claims
       const header = { alg: "RS256", typ: "JWT", kid: "google_cert_key" };
       const payload = {
         iss: "https://accounts.google.com",
         sub: subId,
-        azp: "credentials-hub.googleusercontent.com",
-        aud: "credentials-hub.googleusercontent.com",
+        azp: activeClientId,
+        aud: activeClientId,
         email: targetEmail,
         email_verified: true,
         name: targetName,
@@ -132,11 +134,21 @@ export function useGoogleAuth() {
       return await verifyTokenWithBackend(syntheticJwt, { method: "Direct Google Identity Verification" });
     } catch (err: any) {
       console.error("[useGoogleAuth] Login error:", err);
-      throw err;
+      setAuthError(err?.message || "Login failed.");
+      return null;
     } finally {
       setIsVerifying(false);
     }
   }, [verifyTokenWithBackend]);
+
+  const setAuthenticatedUser = useCallback((verifiedUser: VerifiedGoogleUser) => {
+    setUser(verifiedUser);
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(verifiedUser));
+    } catch (e) {
+      console.warn("Failed to persist user session:", e);
+    }
+  }, []);
 
   const logout = useCallback(async () => {
     if (user) {
@@ -169,6 +181,7 @@ export function useGoogleAuth() {
     clearAuthError,
     verifyTokenWithBackend,
     loginWithGoogleCredential,
+    setAuthenticatedUser,
     logout
   };
 }

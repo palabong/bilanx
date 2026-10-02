@@ -39,7 +39,9 @@ export default function App() {
     isVerifying, 
     authError, 
     clearAuthError, 
+    verifyTokenWithBackend,
     loginWithGoogleCredential, 
+    setAuthenticatedUser,
     logout 
   } = useGoogleAuth();
 
@@ -60,11 +62,14 @@ export default function App() {
     return (
       <>
         <GoogleAuthGate
-          onLoginSuccess={(verifiedUser) => {}}
+          onLoginSuccess={(verifiedUser) => {
+            setAuthenticatedUser(verifiedUser);
+          }}
           isVerifying={isVerifying}
           authError={authError}
           onClearError={clearAuthError}
           onInstantVerify={loginWithGoogleCredential}
+          verifyToken={verifyTokenWithBackend}
           onOpenAuditLogs={() => setShowAuditModal(true)}
         />
         <AccessLogAuditModal

@@ -18,7 +18,8 @@ interface GoogleAuthGateProps {
   isVerifying: boolean;
   authError: string | null;
   onClearError: () => void;
-  onInstantVerify: (email?: string, name?: string) => Promise<VerifiedGoogleUser>;
+  onInstantVerify?: (email?: string, name?: string) => Promise<VerifiedGoogleUser>;
+  verifyToken?: (credential: string, clientInfo?: any) => Promise<VerifiedGoogleUser>;
   onOpenAuditLogs: () => void;
 }
 
@@ -27,70 +28,91 @@ export function GoogleAuthGate({
   isVerifying,
   authError,
   onClearError,
-  onInstantVerify,
+  verifyToken,
   onOpenAuditLogs
 }: GoogleAuthGateProps) {
-  const [customEmail, setCustomEmail] = useState('daniele.palagi92@gmail.com');
-  const [customName, setCustomName] = useState('Daniele Palagi');
-  const [showCustomInput, setShowCustomInput] = useState(false);
   const [gsiInitialized, setGsiInitialized] = useState(false);
   const buttonContainerRef = useRef<HTMLDivElement>(null);
+  const renderedRef = useRef(false);
 
   // Initialize official Google Identity Services client if client ID is configured
   useEffect(() => {
-    const clientId = (import.meta as any).env?.VITE_GOOGLE_CLIENT_ID || '';
-    
-    if (typeof window !== 'undefined' && window.google?.accounts?.id && clientId && buttonContainerRef.current) {
-      try {
-        window.google.accounts.id.initialize({
-          client_id: clientId,
-          callback: async (response: { credential: string }) => {
-            try {
-              const res = await fetch('/api/auth/verify-google', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-                body: JSON.stringify({ credential: response.credential }),
-              });
-              const contentType = res.headers.get('content-type') || '';
-              if (contentType.includes('application/json')) {
-                const data = await res.json();
-                if (data.success && data.user) {
-                  onLoginSuccess(data.user);
+    const clientId = (import.meta as any).env?.VITE_GOOGLE_CLIENT_ID || '622147315855-d7dhtqmp7ebo48bv706pjtsm1n90db57.apps.googleusercontent.com';
+    let cancelled = false;
+
+    const setupGsi = () => {
+      if (cancelled || renderedRef.current) return;
+      if (typeof window !== 'undefined' && window.google?.accounts?.id && clientId && buttonContainerRef.current) {
+        try {
+          window.google.accounts.id.initialize({
+            client_id: clientId,
+            callback: async (response: { credential: string }) => {
+              try {
+                if (verifyToken) {
+                  const verifiedUser = await verifyToken(response.credential, { method: "Google Identity Services SDK" });
+                  if (verifiedUser) {
+                    onLoginSuccess(verifiedUser);
+                    return;
+                  }
                 }
+                const res = await fetch('/api/auth/verify-google', {
+                  method: 'POST',
+                  headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+                  body: JSON.stringify({ 
+                    credential: response.credential,
+                    clientInfo: { method: "Google Identity Services SDK" }
+                  }),
+                });
+                const contentType = res.headers.get('content-type') || '';
+                if (contentType.includes('application/json')) {
+                  const data = await res.json();
+                  if (data.success && data.user) {
+                    onLoginSuccess(data.user);
+                  }
+                }
+              } catch (err) {
+                console.error("Google Sign-In callback error:", err);
               }
-            } catch (err) {
-              console.error("Google Sign-In callback error:", err);
-            }
-          },
-        });
+            },
+          });
 
-        window.google.accounts.id.renderButton(
-          buttonContainerRef.current,
-          {
-            type: 'standard',
-            theme: 'filled_blue',
-            size: 'large',
-            text: 'signin_with',
-            shape: 'rectangular',
-            logo_alignment: 'left',
-            width: 320
+          if (buttonContainerRef.current && !renderedRef.current) {
+            renderedRef.current = true;
+            window.google.accounts.id.renderButton(
+              buttonContainerRef.current,
+              {
+                type: 'standard',
+                theme: 'filled_blue',
+                size: 'large',
+                text: 'signin_with',
+                shape: 'rectangular',
+                logo_alignment: 'left',
+                width: 320
+              }
+            );
+            setGsiInitialized(true);
           }
-        );
-        setGsiInitialized(true);
-      } catch (err) {
-        console.warn("Could not render official Google button:", err);
+        } catch (err) {
+          console.warn("Could not render official Google button:", err);
+        }
       }
-    }
-  }, [onLoginSuccess]);
+    };
 
-  const handleInstantSignIn = async (e?: React.FormEvent) => {
-    if (e) e.preventDefault();
-    try {
-      await onInstantVerify(customEmail.trim(), customName.trim());
-    } catch (err) {
-      console.error("Sign-in verification failed:", err);
-    }
-  };
+    setupGsi();
+    const interval = setInterval(() => {
+      if (window.google?.accounts?.id && buttonContainerRef.current) {
+        setupGsi();
+        if (renderedRef.current) {
+          clearInterval(interval);
+        }
+      }
+    }, 200);
+
+    return () => {
+      cancelled = true;
+      clearInterval(interval);
+    };
+  }, [onLoginSuccess, verifyToken]);
 
   return (
     <div className="min-h-screen bg-slate-950 flex flex-col justify-center items-center p-4 sm:p-6 font-sans relative overflow-hidden">
@@ -122,86 +144,30 @@ export function GoogleAuthGate({
           <div className="mx-8 mb-4 p-3 bg-red-950/60 border border-red-800/80 rounded-lg flex items-start gap-2.5 text-xs text-red-200">
             <AlertCircle className="w-4 h-4 text-red-400 shrink-0 mt-0.5" />
             <div className="flex-1 leading-snug">{authError}</div>
-            <button onClick={onClearError} className="text-red-400 hover:text-red-100 font-bold px-1">✕</button>
+            <button onClick={onClearError} className="text-red-400 hover:text-red-100 font-bold px-1 cursor-pointer">✕</button>
           </div>
         )}
 
         {/* Auth Body */}
         <div className="px-8 pb-8 flex flex-col gap-4">
 
-          {/* Official Google Identity Button (rendered if Client ID active) */}
-          <div ref={buttonContainerRef} className={`w-full flex justify-center ${gsiInitialized ? 'block mb-2' : 'hidden'}`}></div>
-
-          {/* Direct Verified Google Credential Action */}
-          <button
-            onClick={() => handleInstantSignIn()}
-            disabled={isVerifying}
-            className={`w-full py-3.5 px-4 rounded-xl font-bold text-sm flex items-center justify-center gap-3 transition-all shadow-lg cursor-pointer ${
-              isVerifying
-                ? 'bg-slate-800 text-slate-400 cursor-not-allowed border border-slate-700'
-                : 'bg-white hover:bg-slate-100 text-slate-900 active:scale-[0.99] border border-slate-200'
-            }`}
-          >
-            {isVerifying ? (
-              <>
-                <div className="w-5 h-5 border-2 border-slate-500 border-t-slate-900 rounded-full animate-spin"></div>
-                <span className="font-mono text-xs">Verifying Google Cryptographic Signature...</span>
-              </>
-            ) : (
-              <>
-                <svg className="w-5 h-5 shrink-0" viewBox="0 0 24 24">
-                  <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" />
-                  <path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.56-2.77c-1.07.72-2.45 1.14-4.37 1.14-3.36 0-6.2-2.28-7.22-5.34H1.17v2.86A11.99 11.99 0 0 0 12 24z" />
-                  <path fill="#FBBC05" d="M4.78 14.12A7.2 7.2 0 0 1 4.4 12c0-.75.13-1.48.38-2.12V7.02H1.17A11.97 11.97 0 0 0 0 12c0 2.05.52 3.97 1.43 5.62l3.35-3.5z" />
-                  <path fill="#EA4335" d="M12 4.78c1.76 0 3.35.61 4.6 1.8l3.45-3.45A11.94 11.94 0 0 0 12 0 11.99 11.99 0 0 0 1.17 7.02l3.61 2.86c1.02-3.06 3.86-5.1 7.22-5.1z" />
-                </svg>
-                <span>Sign in with Google Verification</span>
-              </>
+          {/* Official Google Identity Button */}
+          <div className="w-full flex flex-col items-center justify-center py-2">
+            {!gsiInitialized && (
+              <div className="flex items-center justify-center gap-2.5 py-3 px-4 w-full bg-slate-800/60 rounded-xl border border-slate-700/60 text-xs text-slate-400 font-mono mb-2">
+                <div className="w-4 h-4 border-2 border-blue-500/40 border-t-blue-500 rounded-full animate-spin"></div>
+                <span>Loading Google Sign-In...</span>
+              </div>
             )}
-          </button>
-
-          {/* Option to specify custom identity parameters */}
-          <div className="pt-2">
-            <button
-              type="button"
-              onClick={() => setShowCustomInput(!showCustomInput)}
-              className="text-[11px] text-slate-400 hover:text-slate-200 transition-colors flex items-center justify-center gap-1 w-full cursor-pointer font-mono"
-            >
-              <span>{showCustomInput ? '▲ Hide Custom Google Account' : '▼ Sign in with custom Google email / auditor account'}</span>
-            </button>
-
-            {showCustomInput && (
-              <form onSubmit={handleInstantSignIn} className="mt-3 p-3.5 bg-slate-950/80 border border-slate-800 rounded-xl flex flex-col gap-2.5 animate-fade-in">
-                <div>
-                  <label className="block text-[10px] font-mono text-slate-400 uppercase mb-1">Google Account Email</label>
-                  <input
-                    type="email"
-                    required
-                    value={customEmail}
-                    onChange={(e) => setCustomEmail(e.target.value)}
-                    placeholder="name@gmail.com"
-                    className="w-full bg-slate-900 border border-slate-700 text-slate-200 text-xs rounded-lg px-3 py-2 focus:outline-hidden focus:border-blue-500 font-mono"
-                  />
-                </div>
-                <div>
-                  <label className="block text-[10px] font-mono text-slate-400 uppercase mb-1">Full Name / Role</label>
-                  <input
-                    type="text"
-                    required
-                    value={customName}
-                    onChange={(e) => setCustomName(e.target.value)}
-                    placeholder="Daniele Palagi"
-                    className="w-full bg-slate-900 border border-slate-700 text-slate-200 text-xs rounded-lg px-3 py-2 focus:outline-hidden focus:border-blue-500"
-                  />
-                </div>
-                <button
-                  type="submit"
-                  disabled={isVerifying}
-                  className="w-full py-2 bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs rounded-lg transition-colors mt-1 cursor-pointer"
-                >
-                  Verify & Enter Sandbox
-                </button>
-              </form>
+            <div 
+              ref={buttonContainerRef} 
+              className={`w-full flex justify-center min-h-[44px] ${!gsiInitialized ? 'hidden' : ''}`}
+            />
+            {isVerifying && (
+              <div className="flex items-center gap-2 mt-3 text-xs text-blue-400 font-mono">
+                <div className="w-3.5 h-3.5 border-2 border-blue-400 border-t-transparent rounded-full animate-spin"></div>
+                <span>Verifying credentials with server...</span>
+              </div>
             )}
           </div>
 
