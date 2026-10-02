@@ -1,36 +1,31 @@
-# Use Node.js base image
-FROM node:20-slim AS builder
+# syntax=docker/dockerfile:1
+FROM node:22-slim AS builder
 
 WORKDIR /app
 
-# Copy package management files
+# Copy package manifests first for better Docker layer caching
 COPY package*.json ./
 
-# Install all dependencies (including devDependencies for build)
-RUN npm ci
+# Use npm install instead of npm ci so the lockfile can be reconciled during build
+# and avoid the lockfile drift that breaks Fly deploys.
+RUN npm install --include=dev
 
-# Copy the rest of the source code
+# Copy application source and build the production bundle
 COPY . .
-
-# Build the frontend and backend Express server
 RUN npm run build
 
-# Use a clean, smaller runtime image
-FROM node:20-slim
+FROM node:22-slim
 
 WORKDIR /app
 
-# Set production environment
 ENV NODE_ENV=production
 ENV PORT=3000
 
-# Copy package files and build output
+# Copy runtime dependencies and built output
 COPY package*.json ./
-COPY --from=builder /app/dist ./dist
 COPY --from=builder /app/node_modules ./node_modules
+COPY --from=builder /app/dist ./dist
 
-# Expose server port
 EXPOSE 3000
 
-# Start Express server
 CMD ["node", "dist/server.cjs"]
